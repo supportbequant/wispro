@@ -1,10 +1,10 @@
 # wispro-bqn-sync
 
-Simple synchronization script between BQN and a Wispro billing
+Simple synchronization script between BQN and a Wispro billing.
 
 ## Installation
 
-The script requires python 3.10 or later with *requests* package
+The script requires python 3.10 or later with *requests* package.
 
 ### In Arch Linux:
 `$ sudo pacman -S python3`
@@ -33,15 +33,15 @@ https://www.python.org/downloads/macos/
 
 ## Setup
 
-Create an API token in Wispro billing
+Create an API token in Wispro billing.
 
-Enable REST API in BQN
+Enable REST API in BQN.
 
 ## Running the script
 
-Every time a synchronization is needded:
+Every time a synchronization is needed:
 
-`python3 ./wispro-bqn-sync.py -b <bqn-ip> <bqn-rest-user> <bqn-rest-password> <wisphub-api-token>`
+`python3 ./wispro-bqn-sync.py -b <bqn-ip> <bqn-rest-user> <bqn-rest-password> <wispro-api-token>`
 
 ## Known limitations
 
