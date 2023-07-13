@@ -4,12 +4,12 @@ Script sencillo de sincronización entre un BQN y un billing de Wispro.
 
 ## Instalación
 
-El script necesita python 3.10 or posterior con el paquete *requests*.
+El script necesita python 3.10 or posterior con el paquete *requests* versio n 2.28.1 (no funciona con versiones posteriores).
 
 ### En Arch Linux:
 `$ sudo pacman -S python3`
 
-`$ sudo pip3 install requests`
+`$ sudo pip3 install request==2.28.1`
 
 ### En Windows:
 1. En una shell de administrador:
@@ -18,7 +18,7 @@ El script necesita python 3.10 or posterior con el paquete *requests*.
 
 2. En una shell normal:
 
-`> pip install requests`
+`> pip install requests==2.28.1`
 
 #### En Mac OS:
 1. Descargas el paquete para MAc del sitio oficial de python:
@@ -29,7 +29,7 @@ https://www.python.org/downloads/macos/
 
 4. En la shell de comandos:
 
-`$ pip3 install requests`
+`$ pip3 install requests==2.28.1`
 
 ## Configuración
 
